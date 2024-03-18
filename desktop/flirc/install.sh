@@ -24,7 +24,7 @@ Categories=Utility;
 Icon=/usr/share/pixmaps/Flirc.png
 EOF
     chmod u+x ~/.local/share/applications/Flirc.desktop # give execution permission to desktop entry file.
-    sudo cat > /etc/udev/rules.d/99-flirc.rules << EOF # create rules file.
+    cat > /etc/udev/rules.d/99-flirc.rules << EOF # create rules file.
 # Flirc Devices
 
 # Bootloader
